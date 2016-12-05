@@ -28,7 +28,7 @@ body{
 	color:#7F8289;
 	font-weight:300;
 	font-size:16px;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif !important;
 	line-height:28px;
 }
 
@@ -503,14 +503,15 @@ header .sticky-nav.stuck {
 header #logo {
 	color: #FFFFFF;
 	float: left;
-	padding: 15px 0;
+	padding: 0px 0;
 	margin-left: 20px;
 }
 
 header #logo a {
 	background: url(../img/logo.png) no-repeat;
-	width: 96px;
-	height: 30px;
+	//width: 96px;
+	width: 294px;
+	height: 60px;
 	text-indent: -9999px;
 	display: block;
 	opacity: 1;
@@ -561,6 +562,9 @@ nav#menu #menu-nav li a:hover {
 	color: #DE5E60;
 }
 
+.nav a{
+	font-family: 'Titillium Web', sans-serif !important;
+}
 
 /* ==================================================
    Mobile Navigation
