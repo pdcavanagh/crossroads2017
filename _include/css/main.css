@@ -579,6 +579,10 @@ nav#menu #menu-nav li a {
 	padding: 0 0 60px 15px;
 }
 
+img.logo:hover {
+	opacity: 0.8;
+}
+
 /*.nav a{
 	font-family: 'Titillium Web', sans-serif !important;
 }*/
@@ -590,15 +594,16 @@ nav#menu #menu-nav li a {
 table {
     font-family: 'Titillium Web', sans-serif;
     border-collapse: collapse;
+    text-align: left;
     width: 100%;
 }
 
 td, th {
     border: 5px solid #dddddd;
-    text-align: left;
     padding: 8px;
     font-size: 20px;
     color: black;
+    text-align: center;
 }
 
 tr:nth-child(even) {
